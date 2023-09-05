@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.icon {
+    color: green;
+}
+
+@layer base {
+    html {
+       font-family: Poppins, system-ui, sans-serif;
+    }
+  
+    body {
+      @apply bg-slate-200
+    }
+     
+    h1 {
+      @apply text-3xl font-bold
+    }
+
+    button {
+      @apply bg-gradient-to-r from-green-700 to-green-500 text-white py-2 rounded-md
+    }
+    img {
+      @apply rounded-md
+    }
+  }
